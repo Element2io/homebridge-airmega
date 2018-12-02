@@ -20,7 +20,7 @@
 		"homebridge": ">=0.2.0"
 	},
 	"scripts": {
-		"prepublishOnly": "tsc -p . --outDir dist"
+		"prepublishOnly": "tsc -p . --outDir dist",
 		"prepare": "npm run build"
 	},
 	"repository": {
