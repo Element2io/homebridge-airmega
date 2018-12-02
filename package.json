@@ -21,7 +21,7 @@
 	},
 	"scripts": {
 		"prepublishOnly": "tsc -p . --outDir dist",
-		"prepare": "npm run build"
+		"prepare": "tsc -p . --outDir dist"
 	},
 	"repository": {
 		"type": "git",
